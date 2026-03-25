@@ -8,3 +8,5 @@ https://github.com/niri-wm/niri/wiki/Configuration:-Animations
 You can replace the CODE GOES HERE PART with the entire file content of the close/open files.
 
 e.g. custom-shader r"CODE GOES HERE"
+
+Don't forget to set a duration (example in the link above), I use 1500 ms (1.5 seconds) in the demo.
