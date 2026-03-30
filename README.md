@@ -5,7 +5,7 @@ Experimental GLSL shaders for Niri. No performance optimisations have taken plac
 For instructions:
 https://github.com/niri-wm/niri/wiki/Configuration:-Animations
 
-You can replace the CODE GOES HERE PART with the entire file content of the close/open files.
+You can replace the CODE GOES HERE part with the entire file content of the close/open files.
 
 e.g. custom-shader r"CODE GOES HERE"
 
