@@ -30,5 +30,6 @@
                 float shard_p = smoothstep(seed * 0.5, seed * 0.5 + 0.5, p);
                 float reveal = smoothstep(0.0, 0.5, shard_p);
 
-                return win * reveal;
+                float inside = step(0.0, uv.x) * step(uv.x, 1.0) * step(0.0, uv.y) * step(uv.y, 1.0);
+                return win * mix(p, reveal, inside);
             }
